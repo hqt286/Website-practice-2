@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("OpenSans-Light.ttf");
+  } /*this function is to add a new font*/
+/* --------------------------------------------- MenuBar -----------------------*/
+#NavagationBar li
+{
+    font-family: OpenSans-Light;
+    display: inline;
+}
+
+#NavagationBar ul
+{
+    padding: 0;
+    display: inline;
+    list-style: none;
+}
+
+#NavagationBar a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: wheat;
+    padding-left: 40px;
+}
+
+#NavagationBar
+{   
+    position: relative;
+    text-align: center;
+    top: 23px;
+}
+
+#NavagationBar a:hover
+{
+    color: #25BDB1;
+}
+
+/* -------------- The Main Box where bio and Pic goes in -------------------*/
+/* the idea is to create a big box then put the picture and item inside that box*/
+.MainBox
+{
+
+    width: 800px;
+    height: 450px;
+    /*border: 1px solid #000000;*/
+    position: relative; /*position for outside box always relative*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#F2F2F2;
+}
+/*-------- Create a Box for the menu ------*/
+.MenuBox
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 800px;
+    height: 80px;
+    border: 1px #000000 solid;
+    background-image: url("MenuBackground.jpg");
+}
+/*-------------create Bottom Box------*/
+.BottomBox
+{
+    position: relative;
+    margin-left: auto;
+
+
+    width: 500px;
+    height: 500px;
+    border: 1px #000000 solid;
+    background-image: url("MenuBackground.jpg");
+}
+/*----------------- Profile Picture --------------*/
+.ProfileBox
+{
+    position: absolute;
+    top: 30px;
+}
+
+/*--------------Label for Profile Pic -----------*/
+.Label
+{
+    position: absolute;
+    text-align: center;
+    font-family:  OpenSans-Light;
+    top: 230px;
+    padding: 0px;
+    color:rgb(44, 44, 95);
+}
+.Label ul
+{
+    list-style: none;
+    padding: 4px;
+
+}
+
+.Label a
+{
+    font-family: OpenSans-Light;
+    color:rgb(44, 44, 95); 
+    text-decoration: none;
+}
+.Label a:hover
+{
+    color: #25BDB1;
+}
+
+/* -------------------------- Profile Paragraph ---------------------*/
+
+.Biography
+{
+    position: absolute;
+    font-family:  OpenSans-Light;
+    left: 230px;
+    top: 0px;
+    border-bottom: solid #dfdcdc;
+    padding: 10px;
+}
+body
+{
+    background-image: url("Junk.png");   
+}
